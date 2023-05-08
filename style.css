@@ -16,9 +16,6 @@ li {
   width: 400px;
 }
 
-.card-image {
-  width: 100px;
-}
 
 
 .header {
@@ -37,4 +34,24 @@ li {
 
 .intro-section {
   display: flex;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.individual-card {
+  flex: 0 0 200px;
 }

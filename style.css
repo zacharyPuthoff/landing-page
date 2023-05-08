@@ -2,3 +2,11 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+.splash-image {
+  width: 400px;
+}
+
+.card-image {
+  width: 100px;
+}

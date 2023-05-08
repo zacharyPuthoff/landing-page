@@ -92,12 +92,14 @@ button {
   gap: 40px;
   justify-content: space-around;
   padding: 40px;
+  align-items: center;
 }
 
 .information-headline {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+  width: 900px;
 }
 
 .cards {
@@ -105,6 +107,7 @@ button {
   gap: 40px;
   text-align: center;
   justify-content: center;
+  width: 900px;
 }
 
 .individual-card {
@@ -122,17 +125,26 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #E5E7EB;
+  padding: 40px;
 }
 
 .text-of-quote {
   width: 400px;
   flex-grow: 0;
   flex-shrink: 0;
+  width: 700px;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
 }
 
 .attribution {
   width: 400px;
   text-align: end;
+  width: 700px;
+  font-weight: bolder;
 }
 
 /* sign up section */

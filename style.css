@@ -25,7 +25,7 @@ button {
   text-decoration: none;
   text-align: center;
   border-radius: 6px;
-  padding: 8px;
+  padding: 4px 8px;
 }
 
 /* header section */
@@ -126,7 +126,7 @@ button {
   flex-direction: column;
   align-items: center;
   background-color: #E5E7EB;
-  padding: 40px;
+  padding: 80px;
 }
 
 .text-of-quote {
@@ -152,6 +152,21 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px;
+  color: #F9FAF8;
+}
+
+.sign-up-modal {
+  display: flex;
+  background-color: #3882F6;
+  padding: 24px 48px;
+  border-radius: 6px;
+  align-items: center;
+  gap: 24px;
+}
+
+.sign-up-modal > button {
+  border: 2px solid #F9FAF8;
 }
 
 .call-to-action {

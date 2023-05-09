@@ -162,6 +162,8 @@ button {
   padding: 24px 48px;
   border-radius: 6px;
   align-items: center;
+  justify-content: space-between;
+  width: 700px;
   gap: 24px;
 }
 
@@ -178,4 +180,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 12px;
+}
+
+.footer > p {
+  width: 700px;
+  text-align: center;
 }
